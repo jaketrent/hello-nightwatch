@@ -1,0 +1,23 @@
+{
+  "name": "hello-nightwatch",
+  "version": "1.0.0",
+  "description": "demo for nightwatch.js",
+  "main": "index.js",
+  "scripts": {
+    "selenium": "node selenium",
+    "test": "node_modules/.bin/nightwatch -t test/*.js -c nightwatch.js -e chrome34"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaketrent/hello-nightwatch.git"
+  },
+  "author": "jaketrent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaketrent/hello-nightwatch/issues"
+  },
+  "homepage": "https://github.com/jaketrent/hello-nightwatch",
+  "dependencies": {
+    "nightwatch": "~0.4.15"
+  }
+}
